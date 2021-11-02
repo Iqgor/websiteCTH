@@ -1,0 +1,16 @@
+body{
+    background-image: url(img/100x100.gif);
+}
+h1{
+    color: lightgreen;
+}
+p{
+    color: black;
+}
+.cheat{
+    background-color: #5FD9AA;
+    color: #DBD395;
+    border: 5px solid #7AC3FF;
+    padding: 20px; 
+
+}
