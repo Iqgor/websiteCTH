@@ -3,12 +3,19 @@
     color: #000000;
     border: 5px solid #7AC3FF;
     padding: 20px; 
+    width: 550px;
 
 }
 .Cheat2{
     background-color: #3bac80;
     color: #000000;
     border: 5px solid #0d4b7e;
-    padding: 20px; 
+    padding: 20px;
+    width: 1200px; 
 
+}
+img{ 
+    position: absolute;
+    right:400px;
+    top:15px;
 }
