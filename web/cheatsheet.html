@@ -8,8 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="Cheat1">
+    <script>
+        // The function below will change the background image
+        function changeBackgroundImage() {
+        document.body.style.backgroundColor="green"
+        document.body.style.color="orange"
+        document.getElementById("user").style.fontFamily = "Impact,Charcoal,sans-serif"
+        document.getElementById("user1").style.fontFamily = "Impact,Charcoal,sans-serif"  
+        }
+      </script>
+    </head>
+    <body>
+    <button onclick="changeBackgroundImage();">Change</button>
     <h1>Cheatsheet van map naar Github</h1>
+    <div id="user" class="Cheat1">
         <h2>Met commandpromt werken.</h2>
         <p><b>1.</b> Maak een map in de locatie die je wil.<br><b>2.</b> Open cmd<br><b>3.</b> Typ in cd (locatie map)<br>
             <b>4.</b> Al zit je in het folder typ git init dit maakt een repositorie aan<br><b>5.</b> Add alle bestanden die door “git add .” te doen.<br>
@@ -18,7 +30,7 @@
     </div>
     <div><img src="img\git-1-init.jpg" alt="cmd" height="322,4" width="579,8"></div>
     <br>
-    <div class="Cheat2">
+    <div id="user1" class="Cheat2">
         <h2>Repositorie maken en pushen naar github.</h2>
         <p><b>7.</b>Maak dan een nieuwe repositorie aan in GitHub.<br><b>8.</b>Volg dan de stappen die in de repositorie staan in GitHub, Typ deze dan in je cmd.
         (git remote add origin https://github.com/Iqgor/m.git
