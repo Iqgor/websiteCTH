@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #a7c8e1;
+    color: #09131a;
+}
+
+main{
+    height: 90vh;
+}
+
+footer, header{
+    height: 120px;
+    background-color: #112534;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+
+.headerTitle{
+    font-size: 400%;
+    color: black;
+    
+}
+
+.logo{
+   height: 130%;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: black;
+}
+
 .Cheat1{
     background-color: #5FD9AA;
     color: #000000;
